@@ -1,0 +1,57 @@
+body{
+    background-color: #2c3e50;
+}
+
+header{
+    background-color: #34495e;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-item a:hover{
+    background-color: rgb(78, 142, 240);
+    color: white;
+}
+
+.nav-item a{
+    color: white;
+    font-weight: normal;
+}
+
+footer{
+    padding: 10px;
+    background-color: #425970;
+}
+
+.footer-menu{
+    display: inline;
+}
+
+.footer-menu .nav-link{
+    color: white;
+    font-weight: bold;
+}
+
+.footer-menu .nav-link:hover{
+    color: black;
+    border: #227093 2px solid;
+    border-radius: 5px;
+}
+.footer-menu h3{
+    color: #4d99bd;
+    border-bottom: #4d99bd solid 2px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin: 8px;
+    padding: 5px;
+}
+#kart-bolum{
+    background-color: #00000000;
+}
+
+.card{
+    border: none;
+}
