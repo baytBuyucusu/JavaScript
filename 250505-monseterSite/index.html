@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="tr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Monster Notebook | Performans Tutkunlarına Özel Notebook'lar</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="clr.css">
+  <script src="script.js" async></script>
+  <link rel="shortcut icon" href="img/logo-mini.jpeg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <header>
+      <!-- header üst satır -->
+      <div class="row">
+        <div id="yukari" class="col-md-12">
+          <ul class="nav d-flex justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="#">İLETİŞİM VE MAĞZALAR</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CANAVARINI SEÇ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">TAMAMLAYICI GARANTİ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">DESTEK <i class="bi bi-arrow-up-right"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">TEKNİK SERVİS <i class="bi bi-arrow-up-right"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">RANDEVU SİSTEMİ <i class="bi bi-arrow-up-right"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ÇÖZÜM MERKEZİ <i class="bi bi-arrow-up-right"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ÖMÜR BOYU BAKIM <i class="bi bi-arrow-up-right"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- header üst satır Bitişi-->
+
+      <!-- header orta satır -->
+      <div class="row mt-4">
+        <div class="col-md-4 logo">
+          <a href="index.html"><img src="img/monster-logo.png" alt="Monster nootbook logo"></a>
+        </div>
+        <div class="col-md-4 d-flex align-items-center justify-content-center " data-bs-theme="dark">
+          <form class="d-flex " role="search">
+            <input class="form-control me-2" type="search" placeholder="Arama Yap..." aria-label="Search">
+            <button class="btn bg-success" type="submit"><i class="bi bi-search"></i></button>
+          </form>
+        </div>
+        <div class="col-md-4 d-flex align-items-center justify-content-center header-btn ">
+          <!-- harici butonu kısmı -->
+          <a class="odeme-btn border border-dark-subtle border-2 text-center m-2" href="#">Harici Ödeme</a>
+          <!-- harici butonu bitişi -->
+
+          <!-- Giriş butonu -->
+          <a class="user-btn border border-dark-subtle border-2 text-center m-2" data-bs-toggle="modal"
+            data-bs-target="#user-modal" id="liveToastBtn" href="#"><i class="bi bi-person-circle"></i> Giriş Yap</a>
+          <!-- giriş butonu bitişi -->
+
+          <!-- Sepetim butonu kısmı -->
+          <a class="sepet-btn border border-dark-subtle border-2 text-center m-2 position-relative"
+            data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" href="#">
+            <i class="bi bi-cart-fill"></i> Sepetim
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+              0<span class="visually-hidden">unread messages</span></span>
+          </a>
+          <!-- Sepetim butonu bitişi -->
+        </div>
+      </div>
+      <!-- header orta satır -->
+
+      <!-- header en alt kısımdaki menü -->
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="navbar navbar-expand-lg  border-top border-warning border-1">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse alt-main-menu d-flex justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link alt-menu" aria-current="page" href="#">TÜM LAPTOPLAR</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link alt-menu" href="#">OYUN BİLGİSAYARLARI</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link alt-menu" href="#">MASAÜSTÜ BİLGİSAYARLAR</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link alt-menu" href="#">İŞ BİLGİSAYARLARI</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link alt-menu" href="#">AKSESUARLAR</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link alt-menu border-end border-secondary border-2" href="#">OYUNCU MONÜTÖRÜ </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link alt-menu" href="#"> CPU & GPU</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link alt-menu" href="#">BELLEK VE EKRAN</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!-- header en alt kısımdaki menü bitişi -->
+
+    </header>
+
+
+
+    <main>
+      <!-- silder kısmı -->
+      <div class="row mt-3">
+        <div class="col-md-12">
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/slider/feb-2025-camp-web-slider_semruk.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/slider/web (1).png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/slider/web (2).png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/slider/web.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/slider/Web_microsoft copilot-full.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- slider bitti -->
+
+      <!-- slider in altındaki 1 fotoğraflı kısım -->
+      <div class="row mt-3">
+        <div class="col-md-12">
+          <a href="#"><img class="d-flex justify-content-center w-100" src="img/cart/Web_1.png" alt=""></a>
+        </div>
+      </div>
+      <!-- 2 fotoğraf olan kısım -->
+      <div class="row mt-3">
+        <div class="col-md-6">
+          <a href="#"><img class="w-100 d-flex justify-content-center" src="img/cart/gaming_2x.jpg" alt="game"></a>
+        </div>
+        <div class="col-md-6">
+          <a href="#"><img class="w-100 d-flex justify-content-center" src="img/cart/Huma_2x.jpg" alt="game"></a>
+        </div>
+      </div>
+        <!-- slider in altındaki kart bitiş-->
+
+        
+         <div class="container">
+          <!-- kullanıcı yorum kısmı (kart) -->
+          <div class="row mt-3">
+            <h5 class="fs-3 text-white p-2 mb-2" >Kullanıcı Yorumları</h5>
+              <!-- kart-1 -->
+            <div class="col-md-3">
+              <div class="card bg-transparent" style="width: 18rem;">
+                <img src="img/satinAlCart/laptop-9.png" class="card-img-top" alt="Laptop monster">
+                <div class="card-body">
+                  <h5 class="card-title">Monster Notebook</h5>
+                  <p class="card-text text-white mt-2">Güçlü Oyun Bilgisayarı <br><img class="mt-2" src="img/satinAlCart/yildiz.PNG" alt="Yıldızlı puanlama"></p>
+                  <a href="https://www.monsternotebook.com.tr/tulpar/monster-tulpar-t6-v2-1-4/" class="btn bg-success"><strong>İncele</strong></a>
+                  <p class="yorum mt-2 text-dark-emphasis">7 Aydır Kullanıyorum
+                    İlk defa MONSTER laptop aldım. Ben hem oyun oynamak hem de okul/iş günlük kullanımlarda şarjı çabuk bitmeyecek hafif bir laptop aradığım için aldım.
+                  </p>
+                    
+                </div>
+              </div> 
+            </div>
+            <!-- kart-1 bitişi-->
+
+            <!-- kart-2 -->
+            <div class="col-md-3">
+              <div class="card bg-transparent" style="width: 18rem;">
+                <img src="img/satinAlCart/2 (1).png" class="card-img-top" alt="Laptop monster">
+                <div class="card-body">
+                  <h5 class="card-title">Monster Notebook</h5>
+                  <p class="card-text text-white mt-2">Güçlü Oyun Bilgisayarı <br><img class="mt-2" src="img/satinAlCart/yildiz.PNG" alt="Yıldızlı puanlama"></p>
+                  <a href="https://www.monsternotebook.com.tr/oyuncu-mouse/pusat-reflex-ultra-kablosuz-oyuncu-mouse-siyah/" class="btn bg-success"><strong>İncele</strong></a>
+                  <p class="yorum mt-2 text-dark-emphasis">7 Aydır Kullanıyorum
+                    İlk defa MONSTER laptop aldım. Ben hem oyun oynamak hem de okul/iş günlük kullanımlarda şarjı çabuk bitmeyecek hafif bir laptop aradığım için aldım.
+                  </p>
+                </div>
+              </div> 
+            </div>
+            <!-- kart-2 bitişi-->
+
+            <!-- kart-3 -->
+            <div class="col-md-3">
+              <div class="card bg-transparent" style="width: 18rem;">
+                <img src="img/satinAlCart/T7_V26_RTX_4060.png" class="card-img-top" alt="Laptop monster">
+                <div class="card-body">
+                  <h5 class="card-title">Monster Notebook</h5>
+                  <p class="card-text text-white mt-2">Güçlü Oyun Bilgisayarı <br><img class="mt-2" src="img/satinAlCart/yildiz.PNG" alt="Yıldızlı puanlama"></p>
+                  <a href="https://www.monsternotebook.com.tr/tulpar/monster-tulpar-t6-v2-1/" class="btn bg-success"><strong>İncele</strong></a>
+                  <p class="yorum mt-2 text-dark-emphasis">7 Aydır Kullanıyorum
+                    İlk defa MONSTER laptop aldım. Ben hem oyun oynamak hem de okul/iş günlük kullanımlarda şarjı çabuk bitmeyecek hafif bir laptop aradığım için aldım.
+                  </p>
+                </div>
+              </div> 
+            </div>
+            <!-- kart-3 bitişi-->
+
+            <!-- kart-4 -->
+            <div class="col-md-3">
+              <div class="card bg-transparent" style="width: 18rem;">
+                <img src="img/satinAlCart/MP_XL_2.png" class="card-img-top" alt="Laptop monster">
+                <div class="card-body">
+                  <h5 class="card-title">Monster Notebook</h5>
+                  <p class="card-text text-white mt-2">Güçlü Oyun Bilgisayarı <br><img class="mt-2" src="img/satinAlCart/yildiz.PNG" alt="Yıldızlı puanlama"></p>
+                  <a href="https://www.monsternotebook.com.tr/gaming-mouse-pad/pusat-gaming-xl-mousepad/" class="btn bg-success"><strong>İncele</strong></a>
+                  <p class="yorum mt-2 text-dark-emphasis">7 Aydır Kullanıyorum
+                    İlk defa MONSTER laptop aldım. Ben hem oyun oynamak hem de okul/iş günlük kullanımlarda şarjı çabuk bitmeyecek hafif bir laptop aradığım için aldım.
+                  </p>
+                </div>
+              </div> 
+            </div>
+            <!-- kart-4 bitişi-->
+             
+           </div>
+           <!-- kullanıcı yorum kısmı (kart) Bitişi-->
+
+           <!-- metin kısmı -->
+            <div class="row mt-5">
+              <div class="col-md-12">
+                <p class="text-dark-emphasis metin">
+                  Oynadığınız oyunlarla bütünleşmek istiyorsanız ve kullandığınız yazılımlarla yaratıcılığınızın doruklarına çıkmayı hedefliyorsanız, Monster Notebook size beklentilerinizin de ötesinde bir dünya sunuyor. <br>
+
+                    En yüksek performanslı notebook modellerini, en erişilebilir fiyatlarla kullanıcılarla buluşturan Monster, yılların verdiği sektör tecrübesiyle ürün gamını şekillendirerek tüm ihtiyaçlarınıza uygun notebook modelleri hazırlıyor. <br>
+
+                    İsimlerini Türk mitolojisinden alan notebook serilerini; Gaming, Business ve Workstation kategorileri altında bir araya getiren Monster, üst seviye donanım bileşenleriyle güçlendirilen taşınabilir bilgisayarları sayesinde masaüstü çalışma konforunu mobil platformda yaşamanızı sağlıyor. <br>
+
+                    Avantajlı fiyatlara konumlanan Abra serisi, Full HD çözünürlükte oyun oynayabilmenizi mümkün kılıyor. <br>
+
+                    Oyunların yanı sıra diğer tüm uygulamalarda daha fazla performans elde etmenize, 2K ve üzerindeki çözünürlüklerde oyun oynamanıza ortam hazırlayan Tulpar serisi, sizin için ideal seçenek haline geliyor. <br>
+
+                    Sahip olduğu donanım sayesinde Gaming ailesinin en güçlü notebook serisi Semruk ise sizi, herkesin şahit olamayacağı bir oyun atmosferine davet ediyor. <br>
+
+                    Güçlü ve işlevsel bir dizüstü bilgisayara gereksiniminiz varsa Huma serisi, 3D tasarım ve render gibi yüksek işlem gücü gerektiren uygulamalarla çalışıyorsanız Markut serisi içerisinde boy gösteren notebook modelleri, projelerinizi kısa sürede tamamlamanıza yardım ediyor. <br>
+
+                    Monster, almayı planladığınız laptop modelleri için satış öncesinde konfigürasyon özelleştirme seçenekleri sunarak bilgisayarınızı belirli ölçülerde kişiselleştirebilmenize olanak veriyor. Bu noktada ekleyeceğiniz donanıma bağlı olarak notebook fiyatları değişiklik gösteriyor. <br>
+
+                    Ayrıca Monster, satış sonrasında da memnuniyetinizi daimi kılmayı garanti ediyor. Notebooklarınız için ömür boyu ücretsiz bakım hizmeti, satın aldıktan sonra ilk 15 gün içinde çalıştıramadığınız yazılım ve oynayamadığınız oyunla karşılaşırsanız anında iade olanağı, ilk 30 gün içinde ekranda meydana gelebilecek tek bir ölü piksel neticesinde bile panel değişimi gibi birçok imkan ve güvence, Monster’ın kullanıcılarına verdiği değeri gösteriyor. <br> 
+                    Yaşayabileceğiniz sorunlara karşı daima yanınızda olan ve bu sorunlara kısa sürede müdahale eden Monster teknik servisi oyun keyfinizi ve çalışmalarınızı dilediğiniz gibi sürdürebilmenize yardımcı oluyor. <br>
+
+                    Yeni ve güçlü bir dizüstü bilgisayar almayı amaçlıyorsanız, Monster’ın kullanıcı dostu ve güvenli web sitesi üzerinden dilediğiniz modeli inceleyip hemen sepetinize ekleyebilirsiniz. <br>
+
+                    Aynı zamanda; İstanbul, Ankara, İzmir ve Lefkoşa’daki Monster mağazalarını da ziyaret edebilir, hem Monster’ın kendine özgü dünyasını keşfedebilir hem de gereksinimlerinize uygun bir notebook edinebilirsiniz. <br>
+                </p>
+                <div class="up fs-3 d-flex justify-content-end">
+                  <a href="#yukari"><i class="bi bi-arrow-up bg-success p-2 rounded text-white"></i></a>
+                </div>
+              </div>
+            </div>
+           <!-- metin kısmı Bitişi-->
+
+
+
+         </div>
+    </main>
+
+
+    <footer>
+
+        <div class="row mt-3 border-top border-bottom border-1 border-secondary-subtle p-5">
+          <div class="col-md-6 d-flex justify-content-center">
+            <div class="baglanti p-2">
+              <a href="#"><i class="bi bi-envelope-plus-fill text-white fs-5 p-3"></i>MesaJ Gönder</a>
+              <a href="#"><i class="bi bi-telephone-outbound-fill text-white fs-5 p-3"></i>0850 255 11 11</p></a>
+            </div>
+          </div>
+        </div>
+
+    </footer>
+
+
+
+
+    <!-- Modal bütünü -->
+    <div class="modal text-white fade" tabindex="-1" id="user-modal" data-bs-theme="dark">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Giriş Yap</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form action="kaydet.php">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">e-Posta</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Bu alanları lütfen boş bırakmayınız.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Şifre</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Beni hatırla</label>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="toast">Kaydet</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal bütünü bitişi-->
+
+
+    <!-- toast mesaj kısmı başlangıcı -->
+    <!-- <button type="button" class="btn btn-primary" id="">Show live toast</button> -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+      <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+          <img src="img/logo-mini.jpeg" class="rounded me-2" alt="...">
+          <strong class="me-auto">Monster Notebook</strong>
+          <small></small>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+          <strong>Girişiniz Onaylanmıştır...</strong>
+        </div>
+      </div>
+    </div>
+    <!-- toast mesaj kısmı bitişi -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"></script>
+</body>
+</html>
