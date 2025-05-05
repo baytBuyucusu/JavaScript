@@ -55,3 +55,14 @@ footer{
 .card{
     border: none;
 }
+
+.card-body a{
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.hesap img{
+    padding: 5px;
+    border: #227093 solid 2px;
+    border-radius: 200px;
+}
