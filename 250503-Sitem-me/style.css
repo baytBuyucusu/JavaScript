@@ -1,60 +1,10 @@
-body{
-    background-image: url(img/arkaplanlar/arkaplan-kabe.png);
-    background-size: cover;
+#logo{
+    width: 150px;
 }
 
-header{
-    background-color: #d1ccc0;
+.special-gothic-condensed-one-regular {
+    font-family: "Special Gothic Condensed One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
-
-
-
-.nav-item.dropdown:hover .dropdown-menu {
-    display: block;
-}
-
-.nav-item a:hover{
-    background-color: rgb(78, 142, 240);
-    color: white;
-}
-
-.nav-item a{
-    color: black;
-    font-weight: normal;
-}
-
-footer{
-    background-color: #e0b158 ;
-    padding: 5px;
-}
-
-.footer-menu{
-    display: inline;
-}
-
-.footer-menu .nav-link{
-    color: white;
-    font-weight: bold;
-}
-
-.footer-menu .nav-link:hover{
-    color: #227093;
-    border: #227093 2px solid;
-    border-radius: 5px;
-}
-.footer-menu h3{
-    color: #4d99bd;
-    border-bottom: #4d99bd solid 2px;
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
-    margin: 8px;
-    padding: 5px;
-}
-#kart-bolum{
-    background-color: #00000000;
-}
-
-.card{
-    border: none;
-}
+  
