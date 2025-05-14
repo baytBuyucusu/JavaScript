@@ -1,0 +1,14 @@
+.main-menu .nav-link{
+    color:#225a8f;
+    font-size: medium;
+    padding: 5px;
+}
+
+.carousel-indicators [data-bs-target]{
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    border: rgb(0, 89, 255) solid 15px;
+    box-shadow: 0px 0px 5px #1f1e22;
+}
+
